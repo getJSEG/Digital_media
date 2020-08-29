@@ -1,0 +1,69 @@
+@import "./navigation/desktop-nav.scss";
+@import "./sections/section_one.scss";
+@import "./sections/section_two.scss";
+@import "./sections/section_three.scss";
+@import "./forms/contact_form.scss";
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-container{
+  padding-top: 6em;
+  margin: auto;
+  text-align: center;
+  width: 75%;
+  img{
+    width: 200px;
+  }
+}
+
+.section-one-container-bg,
+.section-two-container-bg,
+.section-three-container-bg{
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.section-one-container-bg{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/creativemedia-46e37.appspot.com/o/images%2FAssets%2FHome%20Page-top.png?alt=media&token=7bd0223d-0acb-454c-b822-329999ebab68");
+}
+
+.section-two-container-bg{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/creativemedia-46e37.appspot.com/o/images%2FAssets%2FHome%20Page-middle.png?alt=media&token=881b6277-9e2d-44d5-b2f2-c9cf59de1997");
+}
+
+.section-three-container-bg{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/creativemedia-46e37.appspot.com/o/images%2FAssets%2FdesktopBackgroundimgs%2FHome%20Page-bottom.png?alt=media&token=40287a75-0458-44f6-93b4-b1bee8bc8ba3");
+}
+
+
+.section-one, .section-two, .section-three{
+    width: 75%;
+}
+
+
+@media (min-width: 1150px) {
+
+  .section-one,
+  .section-two,
+  .section-three {
+      width: 50%;
+  }
+
+  .section-one-container-bg{
+    background-image: url("https://i.pinimg.com/originals/30/88/ac/3088acbc053d0938509d04ab2837a238.jpg");
+  }
+  .section-two-container-bg{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/creativemedia-46e37.appspot.com/o/images%2FAssets%2FHome%20Page-middle.png?alt=media&token=881b6277-9e2d-44d5-b2f2-c9cf59de1997");
+  }
+  .section-three-container-bg{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/creativemedia-46e37.appspot.com/o/images%2FAssets%2FdesktopBackgroundimgs%2FHome%20Page-bottom.png?alt=media&token=40287a75-0458-44f6-93b4-b1bee8bc8ba3");
+  }
+
+
+}

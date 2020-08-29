@@ -1,0 +1,44 @@
+.navigation-container{
+  width: 100%;
+  div{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    height: 55px;
+  }
+}
+
+.stiky-header{
+  position: fixed;
+  background-color: #2b2a30;
+  box-shadow: -1px -2px 10px #000;
+  margin: auto;
+  z-index: 100
+}
+
+
+.navigation-list{
+    padding-top: 1em;
+  li{
+    display: inline;
+    list-style: none;
+    margin-left: 4px;
+    font-size: 12pt;
+    a{
+      color: #fff;
+      text-decoration: none;
+      padding: 6px;
+      border-radius: 3px;
+    }
+  }
+}
+
+.navigation-list{
+  a:hover{
+    background: #fb5255;
+    cursor: default;
+  }
+}
+.active{
+    background: #fb5255;
+}

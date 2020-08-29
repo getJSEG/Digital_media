@@ -1,0 +1,100 @@
+.section-two{
+  background-color: #2b2a30;
+    margin: auto;
+    padding: 4em  0 5em 0;
+    box-shadow: 0 0px 0px 0px #2b2a30, 0 -20px 0px 0px #2b2a30, 2px 8px 15px #000, 2px 8px 15px #000;
+    text-align: center;
+    h4{
+      text-align: left;
+      color: #989898;
+      font-weight: 300;
+      padding-top: 25px;
+      padding-left: 20px;
+      text-transform: uppercase;
+    }
+    h2{
+      color: #fff;
+      width: 100%;
+      text-align: center;
+      font-size: 14pt;
+      font-weight: 300;
+      text-transform: uppercase;
+
+    }
+    button{
+      border: none;
+      padding: 10px;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      background: #fb5255;
+      color: #fff;
+      border-radius: 5px;
+      text-transform: uppercase;
+    }
+}
+
+
+.container-open { display:block; }
+.container-closed { display: none }
+
+.left-img{
+  width: 200px;
+  height: 200px;
+  // background-image: url('../Assets/Images/BestWater_flickr_DarrellMiller.jpg');
+  background-position: 50%;
+  border: 1px solid red;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.right-img{
+  width: 200px;
+  height: 200px;
+  // background-image: url('../Assets/Images/5f7a67d65ba8af1a504fd990617c6bc6.png');
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid red;
+  margin: auto;
+}
+
+.right-text, .left-text{
+  text-align: center;
+  color: #fff;
+  padding: 2em;
+  font-size: 11pt;
+  line-height: 1.4;
+}
+
+@media (min-width: 800px) {
+  .left-img{
+    margin-top: 1.5em;
+    margin-left: 4em;
+    float: left;
+  }
+  .right-img{
+    margin-top: 1.5em;
+    margin-right: 4em;
+    float: right;
+  }
+
+  .photography-info, .web-design-container, .logo-design-container{
+      width: 85%;
+      margin: auto;
+      justify-content: center;
+  }
+  .right-text, .left-text{
+      width: 50%;
+  }
+
+  .right-text{
+    float: right;
+  }
+}
+
+.clearfix::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
