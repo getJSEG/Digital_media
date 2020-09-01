@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<textContent>
+  <content>
+    <title> What We Do </title>
+    <paragraph> </paragraph>
+    <img> </img>
+  </content>
+
+  <content>
+    <title> Photography </title>
+    <paragraph> we can create professional photographies for your team, professional and family events with the best equipment and lenses we capture stunning photographies with rich color and sharpness </paragraph>
+    <img> </img>
+  </content>
+
+  <content>
+    <title> Web Design </title>
+    <paragraph> Creating a website is hard and time-consuming, but is a crucial part of your business, we can help you design, create, and bring to life your the most important thing and the first thing your customer will see. </paragraph>
+    <img> </img>
+  </content>
+
+  <content>
+   <title> Logo Design </title>
+   <paragraph> let us create and bring your ideas to life, we can design unique logos that will bring you company to life and stand out from the competition. </paragraph>
+   <img> </img>
+  </content>
+</textContent>
+
+<media>
+  <all>
+    <img> </img>
+    <img> </img>
+    <img> </img>
+    <img> </img>
+  <all>
+
+  <webDesign>
+    <img> </img>
+    <img> </img>
+    <img> </img>
+    <img> </img>
+  <webDesign>
+
+  <photography>
+    <img> </img>
+    <img> </img>
+    <img> </img>
+    <img> </img>
+  </photography>
+
+  <logoDesign>
+    <img> </img>
+    <img> </img>
+    <img> </img>
+    <img> </img>
+  </logoDesign>
+
+<media>
